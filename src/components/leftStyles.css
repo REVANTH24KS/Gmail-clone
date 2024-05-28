@@ -1,0 +1,52 @@
+/* leftStyles.css */
+
+.left-panel {
+  position: fixed;
+  background-color: #F9F9F9; /* Remove quotes around color value */
+  min-height: 100vh;
+  padding-top: 6vw;
+  width: 19.6vw;
+  border-radius: 2%;
+}
+
+.menu-item {
+  margin-top: 1vw;
+  margin-left: 0.8vw;
+  width: 12vw;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s ease; /* Add transition for background-color */
+}
+
+.menu-item:hover {
+  background-color: rgba(0, 0, 0, 0.05); /* Background color on hover */
+}
+
+.menu-item box-icon {
+  width: 2vw;
+  height: 2vw;
+  margin-left: 2vw;
+  cursor: pointer;
+  transition: color 0.3s ease; /* Add transition for icon color */
+}
+
+.menu-item span {
+  cursor: pointer;
+  margin-left: 1.6vw;
+  font-weight: 400;
+  font-size: 1.3vw;
+  transition: color 0.3s ease; /* Add transition for text color */
+}
+
+.menu-item.selected {
+  background-color: #007bff; /* Background color for selected item */
+  border-radius: 10%;
+}
+
+.menu-item.selected box-icon {
+  color: #fff; /* Icon color for selected item */
+}
+
+.menu-item.selected span {
+  color: #fff; /* Text color for selected item */
+}

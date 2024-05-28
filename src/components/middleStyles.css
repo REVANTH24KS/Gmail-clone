@@ -1,0 +1,72 @@
+.container {
+    margin-left: 2.9vw;
+    width: 75vw;
+    padding-top: 6vw;
+}
+
+.refresh-icon {
+    width: 1.5vw;
+    height: 1.5vw;
+    margin-left: 1.5vw;
+    margin-top: 2vw;
+}
+
+.paper {
+    background-color: #F8FCFF;
+    border-bottom: 1px solid #EFEFEF;
+    border-top: 1px solid #EFEFEF;
+}
+
+.list-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list-item-content {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.star-icon {
+    font-size: 1.4vw;
+    cursor: pointer;
+}
+
+.starred {
+    color: red;
+}
+
+.sender {
+    font-size: 1.3vw;
+    margin-left: 1.2vw;
+    font-weight: 500;
+}
+
+.email {
+    margin-left: 12vw;
+    font-weight: 200;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+}
+
+.snooze-icon {
+    font-size: 1.4vw;
+    cursor: pointer;
+    margin-right: 1vw;
+}
+
+.delete-icon {
+    width: 3vw;
+    height: 1.1vw;
+    cursor: pointer;
+}
+
+.footer-text {
+    font-weight: 400;
+    margin-left: 28vw;
+}
